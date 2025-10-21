@@ -566,6 +566,15 @@ hr {
     background-color: #cc0000;
 }
 
+/* Specific styling for TikTok (NEW) */
+.tiktok-btn {
+    background-color: #000000; /* TikTok Black */
+}
+
+.tiktok-btn:hover {
+    background-color: #333333;
+}
+
 
 /*
 ----------------------------------
@@ -651,4 +660,5 @@ footer {
     .filter-btn {
         width: 100%;
     }
+
 }
