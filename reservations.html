@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandaramnuwara Reservations - Find Your Stay</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <h1>Mandarawaruwa Explorer</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reservations-intro">
+            <div class="container">
+                <h2>Find Your Perfect Stay in the Mist 🏡</h2>
+                <p>
+                    From cozy guesthouses nestled in tea plantations to adventurous campsites under the stars, Mandaramnuwara offers a unique range of accommodation. Choose the perfect base for your trekking and exploring adventures.
+                </p>
+            </div>
+        </section>
+
+        <section id="reservation-filters">
+            <div class="container">
+                <h3>Filter by Accommodation Type:</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Show All</button>
+                    <button class="filter-btn" data-filter="cottage">Cottages/Guesthouses</button>
+                    <button class="filter-btn" data-filter="camp">Campsites/Glamping</button>
+                    <button class="filter-btn" data-filter="luxury">Boutique/Luxury</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="reservation-listings">
+            <div class="container">
+                <div class="listing-grid">
+
+                    <div class="reservation-card" data-type="cottage">
+                        <img src="images/res_cottage1.jpg" alt="Mist View Cottage">
+                        <div class="card-content">
+                            <h3>Mandaram Mist Haven</h3>
+                            <p class="type-tag">Cottage</p>
+                            <p>A tranquil cottage perfect for couples, close to the Kolapathana trail head.</p>
+                            <p class="price">LKR 10,000 / Night</p>
+                            <a href="#" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+
+                    <div class="reservation-card" data-type="camp">
+                        <img src="images/res_camp1.jpg" alt="Mountain Campsite">
+                        <div class="card-content">
+                            <h3>Skyline Camping Retreat</h3>
+                            <p class="type-tag">Campsite</p>
+                            <p>Full-service camping with tent setup and bonfire provided. Amazing stargazing!</p>
+                            <p class="price">LKR 6,500 / Person</p>
+                            <a href="#" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+
+                    <div class="reservation-card" data-type="luxury">
+                        <img src="images/res_luxury1.jpg" alt="Boutique Stay">
+                        <div class="card-content">
+                            <h3>Pidurutalagala Boutique Stay</h3>
+                            <p class="type-tag">Boutique</p>
+                            <p>Luxury rooms with heated water and stunning views over the valley.</p>
+                            <p class="price">LKR 25,000 / Night</p>
+                            <a href="#" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="reservation-card" data-type="cottage">
+                        <img src="images/res_cottage2.jpg" alt="Riverside Guesthouse">
+                        <div class="card-content">
+                            <h3>Riverside Guesthouse</h3>
+                            <p class="type-tag">Cottage</p>
+                            <p>Family-friendly guesthouse right next to the Belihul Oya stream.</p>
+                            <p class="price">LKR 8,000 / Night</p>
+                            <a href="#" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+
+                    <div class="reservation-card" data-type="camp">
+                        <img src="images/res_camp2.jpg" alt="Forest Glamping">
+                        <div class="card-content">
+                            <h3>Forest Edge Glamping</h3>
+                            <p class="type-tag">Campsite</p>
+                            <p>A comfortable glamping experience at the edge of the forest reserve.</p>
+                            <p class="price">LKR 9,500 / Person</p>
+                            <a href="#" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mandaramnuwara Explorer. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script2.js"></script>
+</body>
+</html>
